@@ -301,22 +301,17 @@ body {
 
 .card {
   height: 100%;
-  display: inline-block;
   border: 2px solid green;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
 }
 
 .picture {
-  width: 112px;
-  padding-right: 15px;
-  display: flex;
+  width: 100%;
+  display: inline-block;
   flex-direction: row;
 }
 
-#first-button {
-  background-color: blue;
+#first-button { 
+  background-color: rgb(38, 166, 209);
 }
 
 #second-button {
@@ -325,14 +320,19 @@ body {
 
 .main-block {
   background-color: yellow;
+  align-items: center;
+  float: right;
+  width: 70%;
 }
 
 .text-title {
+  font-family: "Myriad Pro";
   line-height: 40px;
-    text-align: center;
-    width: 80%;
-    font-family: "Open Sans";
-    font-size: 19px;
+  color: #515151;
+  text-align: center;    
+  width: 80%;
+  font-family: "Open Sans";
+  font-size: 23px;
 }
 
 .text-usually {
