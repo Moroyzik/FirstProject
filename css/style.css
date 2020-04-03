@@ -288,3 +288,43 @@ body {
   border-bottom: 2px solid;
   border-color: #add136;
 }
+
+/* Sofa and Wallet*/
+
+.block-items {
+  width: 100%;
+  font-size: 0;
+}
+
+.card {
+  width: 600px;
+  height: 100%;
+  display: inline-block;
+  border: 2px solid green;
+  align-items: center;
+  justify-content: center;
+}
+
+.picture {
+  width: 100%;
+  padding-right: 15px;
+  display: flex;
+}
+
+#first-picture {
+  background-color: blue;
+}
+
+#second-picture {
+  background-color: #add136;
+}
+
+.text-title {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.text-usually {
+  font-size: 16px;
+}
