@@ -304,10 +304,19 @@ body {
   border: 2px solid green;
 }
 
+#sofa-card {
+  background-color: rgb(195, 227, 236);
+}
+
+#wallet-card {
+  background-color: rgb(235, 243, 217);
+}
+
 .picture {
-  width: 100%;
   display: inline-block;
-  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px 25px 50px;
 }
 
 #first-button { 
@@ -319,24 +328,29 @@ body {
 }
 
 .main-block {
-  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   float: right;
   width: 70%;
 }
 
 .text-title {
-  font-family: "Myriad Pro";
   line-height: 40px;
   color: #515151;
   text-align: center;    
-  width: 80%;
   font-family: "Open Sans";
-  font-size: 23px;
+  font-size: 23px;  
+  padding-top: 25px;
 }
 
 .text-usually {
-  font-size: 16px;
+  width: 80%;
+  font-size: 17px;
+  padding: 20px 20px 20px;
+  line-height: 2;
+  text-align: left;
 }
 
 
