@@ -218,20 +218,20 @@ body {
   margin-bottom: 50px;
 }
 
-/* TABS */
+/* TABS-HEADER */
 
-.tabs-container {
+.tabs-header {
   width: 100%;
-  height: 570px;
+  height: 120px;
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .tabs {
-  height: 120px;
   width: 80%;
+  height: 120px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -283,8 +283,67 @@ body {
 #line {
   width: 30%;
   height: 100%;
-  transition: margin-left 0.5s;
+  transition: margin-left 0.5s ease;
   padding-bottom: 30px;
   border-bottom: 2px solid;
   border-color: #add136;
+}
+
+/*TABS-BODY*/
+
+.body-container {
+  overflow: hidden;
+  width: 100%;
+  height: 350px;
+}
+
+#tabs-body {
+  transition: margin-left 0.5s ease;
+  width: 300%;
+  height: 100%;
+  display: flex;
+}
+
+.tab-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.tab-content {
+  display: flex;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: 80%;
+  height: 100%;
+}
+
+.tab-image {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tab-article {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.tab-article-title {
+  font-size: 30px;
+  color: #add136;
+  padding-bottom: 25px;
+  line-height: 2em;
+}
+
+.tab-article-text {
+  line-height: 2em;
+  font-size: 20px;
 }
