@@ -16,3 +16,15 @@ function changeTab(tabNumber) {
       tabNumber === item ? "#add136" : "#959595";
   });
 }
+
+function handleClick(direction) {
+  switch (direction) {
+    case "left":
+      document.getElementById("carousel-body").style.marginLeft = "0%";
+      break;
+    case "right":
+      document.getElementById("carousel-body").style.marginLeft = "-100%";
+      break;
+    default:
+  }
+}
