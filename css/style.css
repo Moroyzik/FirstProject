@@ -90,11 +90,13 @@ body {
 #first-button {
   background-color: rgb(38, 166, 209);
   cursor: pointer;
+  border-radius: 10px;
 }
 
 #second-button {
   background-color: #add136;
   cursor: pointer;
+  border-radius: 10px;
 }
 
 .main-block {
