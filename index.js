@@ -18,13 +18,6 @@ function changeTab(tabNumber) {
 }
 
 function handleClick(direction) {
-  switch (direction) {
-    case "left":
-      document.getElementById("carousel-body").style.marginLeft = "0%";
-      break;
-    case "right":
-      document.getElementById("carousel-body").style.marginLeft = "-100%";
-      break;
-    default:
-  }
+    document.getElementById("carousel-body").style.marginLeft = 
+        direction === 'left' ? '0%' : '-100%';
 }
