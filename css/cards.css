@@ -82,6 +82,10 @@
   height: 40%;
 }
 
+.card-block-image {
+  background-size: cover;
+}
+
 .card-content {
   display: flex;
   flex-direction: column;
@@ -123,4 +127,11 @@
 .card-text {
   line-height: 20px;
   font-size: 15px;
+}
+
+.card-progress {
+  height: 13px;
+  width: 80%;
+  background-color: gray;
+  border-radius: 7px;
 }
