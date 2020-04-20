@@ -79,7 +79,15 @@
   border-radius: 20px 20px 0 0;
   width: 100%;
   height: 40%;
-  background-color: red;
+}
+
+.card-corner {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 3.5em solid;
+  border-color: #add136 transparent transparent #add136;
+  border-radius: 10px;
 }
 
 .card-block-image {
@@ -114,6 +122,15 @@
   justify-content: flex-end;
   width: 90%;
   height: 20%;
+}
+
+.card-footer-button {
+  width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-left: 15px solid #add136;
+	border-bottom: 10px solid transparent;
+  margin-left: 10px;
 }
 
 .card-title,
@@ -151,10 +168,8 @@
 .under-progress {
   width: 80%;
   line-height: 20px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.left-text-progress {
-  display: inline-flex;
-  margin-left: 10%;
-  margin-right: 10%;
-}
+
