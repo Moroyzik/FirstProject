@@ -1,0 +1,43 @@
+/* REVIEW */
+
+.review-service {
+	position: relative;
+    width: 100%;
+    max-height: 650px;
+}
+
+.review-common {
+	position: relative;
+	display: flex;
+}
+
+.review-header {
+	position: absolute;
+	color: yellowgreen;
+	font-size: 18px;
+	top: 10%;
+	left: 20%;
+	right: 20%;
+}
+
+#review-text {
+	text-align: center;
+}
+
+#review-under-text {
+	font-size: 14px;
+	color: gray;
+	line-height: 10px;
+	text-align: center;
+}
+
+.review-two-message {
+	position: absolute;
+	display: flex;
+	width: 80%;
+	height: 250px;
+	background-color: green;
+	top: 55%;
+	left: 10%;
+	right: 10%;
+}
