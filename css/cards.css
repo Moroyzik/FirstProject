@@ -83,18 +83,28 @@
 }
 
 .card-corner {
-  position: absolute;
-  width: 0;
-  height: 0;
-  border: 3.5em solid;
-  border-color: #add136 transparent transparent #add136;
-  border-radius: 20px;
+  line-height: 40px;
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+  margin-top: -85px;
+  margin-left: -85px;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  transform: rotate(-45deg);
+  background-color: #add136;
 }
 
 .card-block-image {
   width: 100%;
   height: 90%;
-  text-align: center;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
   background-image: url("../assets/images/Layer16.png");
   border-radius: 20px 20px 0 0;
 }
@@ -127,10 +137,10 @@
 
 .card-footer-button {
   width: 0;
-	height: 0;
-	border-top: 10px solid transparent;
-	border-left: 15px solid #add136;
-	border-bottom: 10px solid transparent;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-left: 15px solid #add136;
+  border-bottom: 10px solid transparent;
   margin-left: 10px;
   border-radius: 3px;
 }
@@ -163,7 +173,7 @@
 .card-progress-fill {
   width: 10%;
   height: 15px;
-  background-color:#add136;
+  background-color: #add136;
   border-radius: 9px 0 0 9px;
 }
 
@@ -181,5 +191,3 @@
   display: flex;
   justify-content: space-between;
 }
-
-
