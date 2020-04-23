@@ -88,7 +88,7 @@
   height: 0;
   border: 3.5em solid;
   border-color: #add136 transparent transparent #add136;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .card-block-image {
@@ -165,6 +165,14 @@
   height: 15px;
   background-color:#add136;
   border-radius: 9px 0 0 9px;
+}
+
+#fill-second {
+  width: 90%;
+}
+
+#fill-third {
+  width: 60%;
 }
 
 .under-progress {

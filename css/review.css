@@ -35,9 +35,26 @@
 	position: absolute;
 	display: flex;
 	width: 80%;
-	height: 250px;
+	height: 45%;
 	background-color: green;
-	top: 55%;
+	top: 45%;
 	left: 10%;
 	right: 10%;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.review-first-message {
+	display: flex;
+	width: 333px;
+	height: 100%;
+	background-color: red;
+	margin-left: 7%;
+}
+.review-second-message {
+	display: flex;
+	width: 333px;
+	height: 100%;
+	background-color: red;
+	margin-right: 7%;
 }
