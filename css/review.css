@@ -48,9 +48,10 @@
 }
 .review-second-message {
   display: flex;
+  flex-direction: column;
   width: 450px;
   height: 100%;
-  background-color: red;
+  justify-content: center;
 }
 
 .review-message-text {
@@ -70,7 +71,7 @@
   height: 30px;
   width: 30px;
   background-color: white;
-  background:linear-gradient(-45deg, transparent 22px,white 0);
+  background:linear-gradient(-45deg, transparent 25px,white 0);
 }
 
 /* TEXT MESSAGE AND HEADER */
@@ -91,6 +92,7 @@
 /* SPEAKER David Beckham */
 
 .review-message-speaker {
+  padding-top: 10px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
