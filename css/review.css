@@ -56,11 +56,21 @@
 .review-message-text {
   display: flex;
   flex-direction: column;
-  height: 180px;
+  height: 160px;
   width: 100%;
   background-color: white;
   border-radius: 10px;
-  line-height: 30px;
+  line-height: 25px;
+}
+
+.review-block-corner {
+  display: flex;
+  align-self: center;
+  margin-right: 90px;
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  background:linear-gradient(-45deg, transparent 22px,white 0);
 }
 
 /* TEXT MESSAGE AND HEADER */
@@ -83,10 +93,9 @@
 .review-message-speaker {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   height: 100px;
   width: 100%;
-  background-color: white;
 }
 
 .review-image-david {
